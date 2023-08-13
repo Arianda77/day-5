@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: black;
+}
+
+input,
+select,
+textarea {
+    background-color: #dfdede;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    resize: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    /* Menggunakan Flexbox untuk menyusun link */
+    background-color: #333;
+    /* Warna latar belakang navbar */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .left {
+    flex: 50%;
+}
+
+nav .right {
+    flex: 50%;
+    margin-left: 53rem;
+}
+
+nav a {
+    color: white;
+    /* Warna teks link */
+    padding: 14px 20px;
+    /* Jarak antara teks dan tepi link */
+    text-decoration: none;
+    /* Menghilangkan garis bawah pada link */
+}
+
+nav a:hover {
+    background-color: #ddd;
+    /* Warna latar belakang link saat di-hover */
+    color: black;
+    /* Warna teks link saat di-hover */
+}
